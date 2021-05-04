@@ -1,0 +1,15 @@
+.nav {
+    background-size: 100% auto;
+    display:flex;
+    flex-direction: flex-start;
+    height: 50px;
+    background-color: #181b1d;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    padding: 0 25px;
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+}
