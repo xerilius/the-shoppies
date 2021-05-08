@@ -30,6 +30,11 @@ input[type=text]:focus {
     outline: 0;
     border: 2px solid rgb(221, 221, 221);
 }
+.clear {
+    margin-left: -70px;
+    margin-top: -5px;
+    padding: 20px;
+}
 
 /* Phone & Tablet */
 @media only screen and (max-width: 767px) {

@@ -1,0 +1,12 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(0, 140, 255);
+}
+.loading-screen {
+    height: 40vh;
+    margin: 0 auto;
+    -ms-transform: translateY(70%);
+    transform: translateY(70%);
+}

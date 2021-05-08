@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
 }
 .landing-year {
     writing-mode: vertical-lr;
@@ -30,10 +31,10 @@
     0 0 0.1em yellow, 
     0 15px 3px black;
 }
-span { 
+.sub span { 
     animation: flicker linear infinite 4s; 
 }
-span:nth-type(2) {
+.sub span:nth-type(2) {
     animation: flicker linear infinite 5s;   
 }
 
