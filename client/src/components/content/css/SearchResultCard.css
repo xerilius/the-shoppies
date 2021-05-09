@@ -37,7 +37,7 @@ button.nomination:disabled {
  }
 .movie-img {
     width:150px;
-    height: auto;
+    height: 200px;
 }
 .movie-info {
     padding: 0 20px;
@@ -55,10 +55,9 @@ button.nomination:disabled {
     display: flex;
 }
 .movie-title {
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
     margin-bottom: 10px;
     font-weight: bold;
-    font-size: 1.5rem;
     letter-spacing: .1rem;
 }
 .movie-genre {
@@ -119,18 +118,21 @@ span img {
         position: relative;
         max-width: 320px;
         display: flex;
+        height: 255px;
     }
     .movie-info {
         width: 300px;
     }
     .movie-title {
-        width: 275px;
+        padding-top: 15px;
+        width: 120px;
         position: relative;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         border-bottom: none;
-        top: -20px;
-        left: -185px;
+        top: 0px;
+        left: -15px;
         text-shadow: 2px 2px black;
+        margin: 0;
     }
     .dir, .stars, .plot, .genres {
         display: none;
@@ -139,27 +141,32 @@ span img {
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 10px;
-        left: -10px;
-        font-size: 1.5rem;
+        left: -15px;
+        font-size: 1.2rem;
     }
     .ratings > * {
-        padding: 5px;
+       padding: 2px;
+    }
+    .card-content {
+        height: 200px;
+        width: 270px;
     }
     button.nomination  {
         position: relative;
-        left: -325px;
-        top: 185px;
+        left: -335px;
+        top: 170px;
+        height: 15px;
     }
-    .fa-award {
+    .fa-star {
         position: relative;
-        left: 50px;
-        top: -215px;
+        left: 101px;
+        top: -205px;
+        font-size: 1.5rem;
     }
     .movie-img {
         position: relative;
-        top: 10px;
-        left: -10px;
+        top: 0px;
+        left: -15px;
     } 
 }
 /* PC */
@@ -172,31 +179,32 @@ span img {
     }
     .search-result-card {
         position: relative;
-        max-width: 750px;
+        max-width: 788px;
         display: flex;
         height: auto;
     }
     .movie-info {
-        width: 500px;
+        width: 525px;
     }
     .movie-title {
         position: relative;
         font-size: 1.5rem;
         text-shadow: 2px 2px black;
+        width: 300px;
     }
     .ratings > * {
         padding: 5px;
     }
     button.nomination  {
         position: relative;
-        left: -90px;
+        left: -75px;
         top: -11px;
     }
-    .fa-award {
+    .fa-star {
         position: relative;
-        left: 30px;
-        top: -20px;
-   
+        left: 70px;
+        top: -15px;
+        font-size: 2rem;
     }
     .movie-img {
         position: relative;

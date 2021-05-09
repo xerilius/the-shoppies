@@ -1,7 +1,6 @@
 .container-nominations {
      border-radius: 10px;
      background-color:#181b1d;
-     overflow-x:
 }
 
 .nominations {
@@ -55,7 +54,4 @@
      .container-nominations::-webkit-scrollbar {
           display: none;
      }
-
-     
-
  }

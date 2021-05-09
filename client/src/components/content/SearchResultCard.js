@@ -9,7 +9,7 @@ export default function SearchResultCard(props) {
 
     let buttonText
     let status = nominated.find(m => movie.imdbID === m.imdbID) ? true : false
-    status === false ? buttonText = "Nominate" : buttonText = <i className="fas fa-award fa-5x" />  
+    status === false ? buttonText = "Nominate" : buttonText = <i className="fas fa-star " />  
     
     let genre
     let genres = movie.Genre
@@ -21,6 +21,7 @@ export default function SearchResultCard(props) {
     }
 
     let ratings = []
+    movie && 
     movie.Ratings.map(rating => {
         if (rating.Source === 'Internet Movie Database') {
             ratings.push(<span className="rating-type"> <img className="rating-icons" src={imdb} /> {rating.Value} </span>)
@@ -46,6 +47,7 @@ export default function SearchResultCard(props) {
             }
         }
     })
+    
 
     console.log(ratings)
     return (
