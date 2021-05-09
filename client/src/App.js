@@ -4,6 +4,7 @@ import NavBar from './components/navbar/NavBar'
 import Landing from './components/page/Landing'
 import SearchBar from './components/searchbar/SearchBar'
 import Content from './components/content/Content'
+import MessageBanner from './components/banner/MessageBanner';
 import './App.css'
 
 
@@ -37,6 +38,7 @@ function App() {
                 message={message}
               /> 
             }
+            <MessageBanner  message={message} query={query} />
           </div>
         </Switch>
      </Route>
