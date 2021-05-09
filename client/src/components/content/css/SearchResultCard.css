@@ -230,7 +230,7 @@ span img {
     }
 
     50% {
-        text-shadow: 0 0 20px black, 
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.644), 
         4px 4px 3px rgba(0, 0, 0, 0.699); 
     }  
 
