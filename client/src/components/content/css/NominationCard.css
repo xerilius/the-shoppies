@@ -47,8 +47,8 @@ button.remove:hover {
 }
 .nom-img {
     height: 180px;
-    width: auto;
-    max-width: 140px;
+    width: 180px;
+    max-width: 130px;
     margin: 5px;
 }
 .banner {
