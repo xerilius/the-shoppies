@@ -9,7 +9,7 @@ export default function SearchResultCard(props) {
 
     let buttonText
     let status = nominated.find(m => movie.imdbID === m.imdbID) ? true : false
-    status === false ? buttonText = "Nominate" : buttonText = <i class="fas fa-award fa-5x"></i>  
+    status === false ? buttonText = "Nominate" : buttonText = <i className="fas fa-award fa-5x" />  
     
     let genre
     let genres = movie.Genre
@@ -19,10 +19,11 @@ export default function SearchResultCard(props) {
             genre => <span className="movie-genre">{genre.trim()}</span>
         )
     }
+
     let ratings = []
     movie.Ratings.map(rating => {
         if (rating.Source === 'Internet Movie Database') {
-            ratings.push(<span> <img className="rating-icons" src={imdb} /> {rating.Value} </span>)
+            ratings.push(<span className="rating-type"> <img className="rating-icons" src={imdb} /> {rating.Value} </span>)
         }
         if (rating.Source === 'Rotten Tomatoes') {
             let percentage = rating.Value.substring(0, rating.Value.length - 1)
@@ -58,10 +59,10 @@ export default function SearchResultCard(props) {
                         <div className="movie-title">
                             {movie.Title} ({movie.Year})
                         </div>
-                        <div>{movie.Plot}</div>
-                        <div>Director: <span className="text-light">{movie.Director} </span></div>
-                        <div>Starring: <span className="text-light">{movie.Actors}</span></div>
-                        <div>{ratings}</div>
+                        <div className="plot">{movie.Plot}</div>
+                        <div className="dir">Director: <span className="text-light">{movie.Director} </span></div>
+                        <div className="stars">Starring: <span className="text-light">{movie.Actors}</span></div>
+                        <div className="ratings">{ratings} </div>
                         <div className="genres">Genres: {genre}</div>
                     </div>
                 </div>

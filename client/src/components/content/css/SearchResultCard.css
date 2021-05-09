@@ -4,7 +4,7 @@
     padding: 10px;
     margin: 20px 0px;
     background-color: #6d6d8325;
-    height: auto;
+    height: 300px;
 }
 button.nomination {
     border-radius: 5px;
@@ -100,4 +100,107 @@ span img {
 }
 .text-light {
     color: rgb(224, 224, 224);
+}
+.move-img {
+    height: 158px;
+    width: 200px;
+}
+
+
+/* Phone & Tablet */
+@media only screen and (max-width: 767px) {
+    .container-results {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-result-card {
+        position: relative;
+        max-width: 320px;
+        display: flex;
+    }
+    .movie-info {
+        width: 300px;
+    }
+    .movie-title {
+        width: 275px;
+        position: relative;
+        font-size: 1.5rem;
+        border-bottom: none;
+        top: -20px;
+        left: -185px;
+        text-shadow: 2px 2px black;
+    }
+    .dir, .stars, .plot, .genres {
+        display: none;
+    }
+    .ratings {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 10px;
+        left: -10px;
+        font-size: 1.5rem;
+    }
+    .ratings > * {
+        padding: 5px;
+    }
+    button.nomination  {
+        position: relative;
+        left: -325px;
+        top: 185px;
+    }
+    .fa-award {
+        position: relative;
+        left: 50px;
+        top: -215px;
+    }
+    .movie-img {
+        position: relative;
+        top: 10px;
+        left: -10px;
+    } 
+}
+/* PC */
+@media only screen and (min-width:768px) {
+   .container-results {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-result-card {
+        position: relative;
+        max-width: 750px;
+        display: flex;
+        height: auto;
+    }
+    .movie-info {
+        width: 500px;
+    }
+    .movie-title {
+        position: relative;
+        font-size: 1.5rem;
+        text-shadow: 2px 2px black;
+    }
+    .ratings > * {
+        padding: 5px;
+    }
+    button.nomination  {
+        position: relative;
+        left: -90px;
+        top: -11px;
+    }
+    .fa-award {
+        position: relative;
+        left: 30px;
+        top: -20px;
+   
+    }
+    .movie-img {
+        position: relative;
+        top: 10px;
+        left: -10px;
+    } 
 }
