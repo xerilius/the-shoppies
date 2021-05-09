@@ -104,6 +104,12 @@ span img {
     height: 158px;
     width: 200px;
 }
+.fa-star {
+    color: rgb(255, 255, 134);
+    text-shadow:
+    5px 7px 3px rgba(0, 0, 0, 0.699);
+    animation: glow 4s infinite;
+}
 
 
 /* Phone & Tablet */
@@ -212,3 +218,32 @@ span img {
         left: -10px;
     } 
 }
+
+@keyframes glow {
+    0% {
+        color:  rgb(255, 255, 59);
+        text-shadow: 0 -20px 200px, 
+        0 0 2px, 
+        0 0 1em rgb(255, 255, 134),
+        0 0 .2em rgb(255, 255, 134),
+        0 0 0.1em rgb(255, 255, 134), 
+        4px 4px 3px rgba(0, 0, 0, 0.699);
+    }
+
+    50% {
+        text-shadow: 0 0 20px black, 
+        4px 4px 3px black; 
+    }  
+
+    100% {
+        color:  rgb(255, 255, 59);
+        text-shadow:
+            0 -20px 200px, 
+            0 0 2px, 
+            0 0 1em rgb(255, 255, 134),
+            0 0 .2em rgb(255, 255, 134),
+            0 0 0.1em rgb(255, 255, 134), 
+            4px 4px 3px rgba(0, 0, 0, 0.699);
+    }
+}
+  

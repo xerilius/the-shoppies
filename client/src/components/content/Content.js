@@ -11,7 +11,6 @@ export default function Content(props) {
     const [data, setData] = useState([])
     const [page, setPage] = useState(1)
     const [isLoading, setIsLoading] = useState(true)
-    const refContainer = useRef(null)
     
     useEffect(() => {
         setIsLoading(true)
