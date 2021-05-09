@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/NominationCard.css'
+import posterNA from  '../../assets/posterNA.png'
 
 
 export default function NominationsCard(props) {
@@ -10,7 +11,7 @@ export default function NominationsCard(props) {
             <div className="rank">0{rank}</div>
             <div className="nom-content">
                 <div className="nom-info">
-                    <img className="nom-img" src={movie.Poster} />
+                    <img className="nom-img" src={movie.Poster !== 'N/A' ? movie.Poster : posterNA} />
                     <div className="nom-title">
                         {movie.Title} ({movie.Year})
                     </div>  
