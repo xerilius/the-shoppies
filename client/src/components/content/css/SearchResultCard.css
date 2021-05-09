@@ -55,7 +55,6 @@ button.nomination:disabled {
     display: flex;
 }
 .movie-title {
-    /* border-bottom: 2px solid white; */
     margin-bottom: 10px;
     font-weight: bold;
     letter-spacing: .1rem;
