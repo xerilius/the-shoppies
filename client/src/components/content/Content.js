@@ -24,6 +24,12 @@ export default function Content(props) {
     }, [page]);
 
     useEffect(() => {
+        setTimeout(() => { 
+            setIsLoading(false);
+        }, 600)
+    }, [data])
+
+    useEffect(() => {
         if (nominated.length === 5) {
             setMessage(
                 {...message, 
@@ -50,11 +56,6 @@ export default function Content(props) {
             }  
         })
         .catch(error => console.error(error))
-        .finally(
-            setTimeout(() => { 
-                setIsLoading(false);
-            }, 600)
-        );
     }
 
     function nominateMovie(movie) {
@@ -81,8 +82,7 @@ export default function Content(props) {
     }
 
     return (
-        <>
-          { isLoading ? <Loading /> :       
+        <>  
             <div className="container">
                 <div className="container-contents">
                     <Nominations 
@@ -90,8 +90,8 @@ export default function Content(props) {
                         nominated={nominated} 
                         remove={removeNominatedMovie}
                     />
+                    { isLoading ? <Loading /> : 
                     <SearchResults 
-                        ref={refContainer}
                         query={query}
                         data={data.movies} 
                         total={data.total}
@@ -101,9 +101,9 @@ export default function Content(props) {
                         prev={fetchPrevPage}
                         page={page}
                     />
+                    }
                 </div>
             </div>
-          }
         </>
     )
 }
