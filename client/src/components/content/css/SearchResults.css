@@ -64,6 +64,8 @@
         letter-spacing: .2rem;
         text-transform: uppercase;
         padding-bottom: 6px;
+        position: relative;
+        left: -215px;          
     }
     .container-results {
         padding: 10px 70px;
