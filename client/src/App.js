@@ -29,6 +29,7 @@ function App() {
         <Switch>
           <div className="page-container">
             <NavBar />
+            <MessageBanner  message={message} query={query} />
             { (initialLoad && query === '') && <Landing />}
             <SearchBar handleSubmit={handleSubmit} />
             { query !== '' &&
@@ -38,7 +39,7 @@ function App() {
                 message={message}
               /> 
             }
-            <MessageBanner  message={message} query={query} />
+
           </div>
         </Switch>
      </Route>

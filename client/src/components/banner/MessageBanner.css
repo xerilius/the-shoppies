@@ -7,6 +7,7 @@
     font-size: 1.5rem;
     padding: 5px;
     width: 100%;
+    z-index: 50;
 }
 .msg-banner > * {
     padding-left: 10px;
