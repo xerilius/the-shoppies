@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f74e09be.chunk.css",
+    "main.js": "/static/js/main.030fca20.chunk.js",
+    "main.js.map": "/static/js/main.030fca20.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7005537f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7005537f.js.map",
+    "static/js/2.21a2e246.chunk.js": "/static/js/2.21a2e246.chunk.js",
+    "static/js/2.21a2e246.chunk.js.map": "/static/js/2.21a2e246.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f74e09be.chunk.css.map": "/static/css/main.f74e09be.chunk.css.map",
+    "static/js/2.21a2e246.chunk.js.LICENSE.txt": "/static/js/2.21a2e246.chunk.js.LICENSE.txt",
+    "static/media/posterNA.bc3b85f9.png": "/static/media/posterNA.bc3b85f9.png",
+    "static/media/splat.cf448ca2.png": "/static/media/splat.cf448ca2.png",
+    "static/media/tomato.c1fa3afb.png": "/static/media/tomato.c1fa3afb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7005537f.js",
+    "static/js/2.21a2e246.chunk.js",
+    "static/css/main.f74e09be.chunk.css",
+    "static/js/main.030fca20.chunk.js"
+  ]
+}
