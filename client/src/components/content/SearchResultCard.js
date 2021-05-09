@@ -3,6 +3,7 @@ import './css/SearchResultCard.css'
 import imdb from '../../assets/imdb.png'
 import tomato from '../../assets/tomato.png'
 import splat from '../../assets/splat.png'
+import posterNA from  '../../assets/posterNA.png'
 
 export default function SearchResultCard(props) {
     const { movie, nominateMovie, nominated } = props
@@ -47,15 +48,13 @@ export default function SearchResultCard(props) {
             }
         }
     })
-    
-
-    console.log(ratings)
+    console.log(movie.Poster)
     return (
         <div className="search-result-card">        
             <div className="card-content">
                 <div className="card-content--items">
                     <div className="container-img">
-                        <img className="movie-img" src={movie.Poster} />
+                        <img className="movie-img" src={movie.Poster !== 'N/A'? movie.Poster : posterNA} />
                     </div>
                     <div className="movie-info">
                         <div className="movie-title">
