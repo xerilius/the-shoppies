@@ -27,26 +27,24 @@ Intern Challenge - Fall 2021</b></h3>
 
 <h3>Nominate Movies</h3>
 
-![Search](https://imgur.com/4ThQudx.gif)
-![Nominate](https://imgur.com/jowKlsp.gif)
+![Search](https://imgur.com/FRqx40n.gif)
+![Nominate](https://imgur.com/QrN6Q31.gif)
 
 <h3>Remove Nominees</h3>
 
-![Remove](https://imgur.com/xBTzbBF.gif)
+![Remove](https://imgur.com/B6iJtbK.gif)
 
 <h3>Pagination</h3>
 
-![Pagination](https://imgur.com/De9NKKy.gif)
+![Pagination](https://imgur.com/jqqYaEn.gif)
 
 <h3>No Search Results & Loading Animation</h3>
 
-![NoResults](https://imgur.com/XmTz2Cq.gif)
+![NoResults](https://imgur.com/zSlsJPj.gif)
 
 <h3>Responsiveness</h3>
 
-![Resp1](https://imgur.com/KxMHUXs.gif)
-
-![Resp2](https://imgur.com/Mah7GIw.gif)
+![Resp1](https://imgur.com/3CA42lv.gif)
 
 
 <hr>
