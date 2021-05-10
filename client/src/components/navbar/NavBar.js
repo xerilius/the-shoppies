@@ -5,9 +5,9 @@ import './NavBar.css'
 export default function NavBar() {
     return (
         <>
-        <h2 className="nav">
-            <a href="/">The Shoppies</a>
-        </h2>
+            <h2 className="nav">
+                <a href="/">The Shoppies</a>
+            </h2>
         </>
     )
 }

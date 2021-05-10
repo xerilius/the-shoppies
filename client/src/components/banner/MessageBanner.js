@@ -10,7 +10,6 @@ export default function MessageBanner({ message }) {
                 <div>{message.alert}</div>
             </div>
         }
-
         { message.error !== "" &&
             <div className="msg-banner">
                 <div>{message.error}</div>

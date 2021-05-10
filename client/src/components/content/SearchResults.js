@@ -48,10 +48,10 @@ export default function SearchResults(props) {
                 </div>
             </div>
         }
-        {!data && 
-        <div className="container-results center">
-            <div className="results-header">0 Results for "{query}"</div>
-        </div>
+        { !data && 
+            <div className="container-results center">
+                <div className="results-header">0 Results for "{query}"</div>
+            </div>
         }
         </>
     )
