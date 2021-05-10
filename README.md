@@ -4,7 +4,7 @@
 Intern Challenge - Fall 2021</b></h3>
 
 
-<h4 align="center"> A single page React.js app to track movie nominations.</h4>
+<h4 align="center"> A single page React.js/Express app to track movie nominations.</h4>
 <h2 align="center"><b><a href="http://grace-chung-the-shoppies.herokuapp.com/">
  LIVE DEMO </a></b></h2>
 <br>  
