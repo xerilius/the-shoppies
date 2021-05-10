@@ -11,7 +11,7 @@ Intern Challenge - Fall 2021</b></h3>
 
 <h2><b><ins>BUILT WITH</ins></b></h2>
 
-* React.js, React Hooks
+* React.js
 * JavaScript
 * Node.js
 * Express
@@ -19,6 +19,7 @@ Intern Challenge - Fall 2021</b></h3>
 * CSS3
 * FontAwesome
 * OMDB API
+* React Router DOM
 
 <br>
 
