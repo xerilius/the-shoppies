@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+<h1 align="center"><b>THE SHOPPIES - Movie Awards</b></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center"><b>UX Developer Intern & Web Developer
+Intern Challenge - Summer 2021</b></h3>
 
-## Available Scripts
 
-In the project directory, you can run:
+<h4 align="center"> A single page React.js app to track movie nominations.</h4>
+<h2 align="center"><b><a href="http://grace-chung-the-shoppies.herokuapp.com/">
+ LIVE DEMO </a></b></h2>
+<br>  
 
-### `yarn start`
+<h2><b><ins>BUILT WITH</ins></b></h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* React.js, React Hooks
+* JavaScript
+* Node.js
+* Express
+* HTML5
+* CSS3
+* FontAwesome
+* OMDB API
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br>
 
-### `yarn test`
+<h2><b><ins>FEATURES</ins></b></h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3>Nominate Movies</h3>
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h3>Pagination</h3>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h3>Remove Nominees</h3>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<h3>No Search Results & Loading Animation</h3>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<hr>
 
-### Code Splitting
+<h3><b><ins>Technical Requirements</ins></b></h3>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Search OMDB and display the results (movies only)
+    * Each search result should list at least its title, year of release and a button to nominate
+that film.
+    * Updates to the search terms and update the result list
+    * Nomination button is disabled if search result has already been nominated
 
-### Analyzing the Bundle Size
+* Add movies from the search results to nomination list
+* List of films already nominated
+* Removal of a nominee from the nomination list
+* Displays a banner when the user has 5 nominations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h3><b><ins>Extra Features</ins></b></h3>
+* Landing page
+* Search result pagination - previous, next buttons
+* Loading animation for search results
+* Animation for star when nominated
+* Option to clear search bar 
+* Search results display additional info: plot, starring actors, ratings and directors
+* Banner is displayed when there are no results/error messages
+* UI Responsiveness
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<h3><b><ins>Developer Notes</ins></b></h3>
 
-### Advanced Configuration
+* While everything can be done with just the frontend, 
+I decided to implement an express server to hide the OMDB's API Key
+for security and for best practices.
+* Handled duplicate movies api results (ie. pokemon)
+* Was going for a simplistic UI, although it would've been nice to implement more subtle animations, 
+I kept it at a minimum to prevent the UI feeling chaotic.
+* I decided to only show search results when user presses enter in the search bar, rather than show a list of results each time
+the user presses a key to reduce the number of pings to the API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3><b><ins>Next Steps</ins></b></h3>
+* Add a filter for search results and sort them by most recent year or rating
+* Implement local storage to save nominations
+* Infinite scrolling to render more results instead of pagination
