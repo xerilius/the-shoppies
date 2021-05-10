@@ -1,6 +1,6 @@
 <h1 align="center"><b>THE SHOPPIES - Movie Awards</b></h1>
 
-<h3 align="center"><b>UX Developer Intern & Web Developer
+<h3 align="center"><b>Frontend Developer
 Intern Challenge - Fall 2021</b></h3>
 
 
