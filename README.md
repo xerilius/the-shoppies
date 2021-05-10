@@ -45,6 +45,7 @@ Intern Challenge - Fall 2021</b></h3>
 <h3>Responsiveness</h3>
 
 ![Resp1](https://imgur.com/KxMHUXs.gif)
+
 ![Resp2](https://imgur.com/Mah7GIw.gif)
 
 
