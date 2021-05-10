@@ -65,6 +65,7 @@ that film.
 * Displays a banner when the user has 5 nominations
 
 <h3><b><ins>Extra Features</ins></b></h3>
+
 * Landing page
 * Search result pagination - previous, next buttons
 * Loading animation for search results
