@@ -1,7 +1,7 @@
 <h1 align="center"><b>THE SHOPPIES - Movie Awards</b></h1>
 
 <h3 align="center"><b>UX Developer Intern & Web Developer
-Intern Challenge - Summer 2021</b></h3>
+Intern Challenge - Fall 2021</b></h3>
 
 
 <h4 align="center"> A single page React.js app to track movie nominations.</h4>
