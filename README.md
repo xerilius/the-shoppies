@@ -88,6 +88,7 @@ I kept it at a minimum to prevent the UI feeling chaotic.
 the user presses a key to reduce the number of pings to the API
 
 <h3><b><ins>Next Steps</ins></b></h3>
+
 * Add a filter for search results and sort them by most recent year or rating
 * Implement local storage to save nominations
 * Infinite scrolling to render more results instead of pagination
