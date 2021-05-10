@@ -48,7 +48,7 @@ export default function SearchResultCard(props) {
             }
         }
     })
-    console.log(movie.Poster)
+
     return (
         <div className="search-result-card">        
             <div className="card-content">

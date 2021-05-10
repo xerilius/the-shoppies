@@ -39,7 +39,6 @@ function App() {
                 message={message}
               /> 
             }
-
           </div>
         </Switch>
      </Route>
